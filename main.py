@@ -187,7 +187,7 @@ def ejecutar_busqueda_excel(ruta_excel):
 
         # Guardar cambios
         workbook.save(ruta_excel)
-        print("\n✅ Excel actualizado y guardado exitosamente.")
+        print("\n✅ Excel actualizado y guardado exitosamente. ")
 
     except Exception as e:
         print(f"⛔ Ocurrió un error inesperado en ejecutar_busqueda_excel: {e}")
